@@ -1,0 +1,38 @@
+/*body {
+  background-image:url('./rainyriver.jpg');
+  background-repeat:no-repeat;
+  background-size: 100%;
+  position:relative;
+}*/
+body {
+  font-family:'Lucida Sans' !important; 
+}
+.img-fluid {
+  width: 100%;
+}
+#features {
+  background-image:url('./rainyriver.jpg');
+  background-attachment:fixed;
+  background-size:cover;
+  min-height:800px;
+}
+.container-fluid {
+  margin-left: -15px;
+  margin-right: -15px;
+  
+}
+#picture {
+  max-height: 150px;
+  max-width: 100px;
+  border-radius: 10%;
+}
+.card {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+#portfolio img {
+min-height:300px;
+border-radius:5px;
+padding: 10px;
+}
+

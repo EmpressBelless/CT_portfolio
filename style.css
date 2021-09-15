@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(rainyriver.jpg);
+  background-repeat: fixed;
+  background-size: cover;
+}
+.card {
+  Margin-top: 30px;
+  margin-bottom: 30px;
+}
+.container {
+  padding: 20px 20px;
+  margin-top: 100px;
+}
+.col-10 {
+  background-color:lightgrey;
+}
+
+.row {
+  Margin: 20px 20px;
+
+}
+
+/*carousel images*/
+.d-block {
+  margin: auto;
+}
+img {
+  width: 25%;
+}
+.carousel-caption {
+  position: relative;
+  left:0;
+  top:0;
+}
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create three equal columns that floats next to each other */
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+form {
+  background-color: grey;
+  padding-left: 50px;
+}
+label {
+  text: white;
+}
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
